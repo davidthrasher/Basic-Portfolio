@@ -1,57 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <title>David Thrasher Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body background="assets/images/Background/ep_naturalwhite.png">
+<body>
 
-  <header>
-    <h1>David Thrasher</h1>
-      <div id="headerlinks">
-          <figure class="pagelinksbox">
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-          </figure>
-      </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">David Thrasher</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-      <section id="main-bio">
-          <div id="header2">
-            About Me
-          </div>
-      <hr>
-      <br>
-      <img src="assets/images/PortfolioPhoto.jpeg" alt="Your Name" id="bio-image">
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+      <img src="assets/images/PortfolioPhoto.jpeg" class="auth-image" alt="Your Name">
+
       <p>Hello, my name is David Thrasher. I am currently attending Georgia Tech's coding bootcamp to learn how to become a Web Developer! I have an extensive background in Music/Audio Engineering and I enjoy all the truly creative possibilities that computers create for us. This site is a portfolio of my past works in Web Development. Take a look and let me know what you think!</p>
-  </section>
 
-  <section>
-    <figure class="socialmediabox">
+    </section>
 
-    
-      <h3>Connect with me</h3>
-    
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-      <a href="https://github.com/thrasher1332" target="_blank">
-        <img src="assets/images/Logos/github.svg" alt="GitHub" style="width:65px;height:65px;border:0;">
-      </a>
+        <a href="https://github.com/thrasher1332" target="_blank"><img src="assets/images/logos/github.svg" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/david-thrasher-68226392/" target="_blank"><img src="assets/images/logos/linkedin.svg" class="social" alt="LinkedIn" target="_blank" /></a>
+        <a href="http://stackoverflow.com/users/7776862/david-thrasher" target="_blank"><img src="assets/images/logos/stack.svg" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-      <a href="https://www.linkedin.com/in/david-thrasher-68226392/" target="_blank">
-        <img src="assets/images/Logos/linkedin.svg" alt="LinkedIn" style="width:65px;height:65px;border:0;">
-      </a>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+</body>
 
-      <a href="https://stackoverflow.com/users/7776862/david-thrasher?tab=profile" target="_blank">
-        <img src="assets/images/Logos/stack.svg" alt="StackOverflow" style="width:65px;height:65px;border:0;">
-      </a>
-    </figure>
-  </section>
-  
-    <footer>
-      <h7>© Copyright 2017 David Thrasher</h7>
-    </footer>
-  </body>
 </html>
